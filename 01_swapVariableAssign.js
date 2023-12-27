@@ -1,0 +1,26 @@
+console.log("------------------ Step 1 ------------");
+var sweety="Sweety";
+var cutie="Cutie"
+console.log("Before Swapping=>");
+console.log("Sweety=", sweety);
+console.log("Cutie=", cutie);
+ var temp;
+ temp=sweety;
+ sweety=cutie;
+ cutie=temp;
+ console.log("After Swapping=>");
+console.log("Sweety=", sweety);
+console.log("Cutie=", cutie);
+console.log("------------ Step 2 ---------------");
+var num1=100;
+var num2=200;
+console.log("Before Swapping=>");
+console.log("Num1=", num1);
+console.log("Num2=", num2);
+var temp;
+temp=num1;
+num1=num2;
+num2=temp;
+console.log("After Swapping=>");
+console.log("Num1=", num1);
+console.log("Num2=", num2);

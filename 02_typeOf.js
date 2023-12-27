@@ -1,0 +1,18 @@
+console.log("-------------- Step 1 -------------");
+var bankName;
+console.log("Before initialization=",typeof bankName);
+bankName="SBI Bank";
+console.log(bankName,",", typeof bankName);
+console.log("-------------- Step 2 -------------");
+var marks='90%';
+console.log(marks, ",", typeof marks);
+console.log("-------------- Step 3 -------------");
+var isWorking;
+console.log("Before initialization=", isWorking);
+isWorking=true;
+console.log("After initialization=",isWorking,"," ,typeof isWorking);
+console.log("-------------- Step 4 -------------");
+var totalCount="Hundred and seven";
+console.log(totalCount, ",", typeof totalCount);
+totalCount=107;
+console.log(totalCount, ",", typeof totalCount);
