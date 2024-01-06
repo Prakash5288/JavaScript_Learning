@@ -1,3 +1,4 @@
+
 var tcsInterview = function (gradScore, hcsScore, sscScore, CandidateName) {
   if (gradScore >= 70 || hcsScore >= 80 || sscScore >= 90) {
     console.log(` Congrats ${CandidateName} you are Eligible for intervivew!`);
