@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between Mongo DB and MySQL</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: "PT Serif", serif;
+             font-weight: 400;
+             font-style: normal;
+        }
+        table,th,tr,td{
+            border-collapse: collapse;
+            border: 1px solid rgb(114, 114, 114);
+        }
+        table{
+            border-collapse: collapse;
+            height: 550px;
+            width: 650px;
+            margin: 20px;
+            text-align: center;
+        }
+        .mongoDB{
+            background-color: rgb(32, 158, 32);
+        }
+        .mySql{
+            background-color: rgb(255, 175, 25);
+        }
+        .headline{
+            height: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><img src="mongo.png" alt="mongoDB logo"></th>
+                <th><img src="mysql.PNG" alt="mysql logo"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="headline">
+                <td class="mongoDB">Use Case</td>
+                <td class="mySql">Use Case</td>
+            </tr>
+            <tr>
+                <td>Real-time analytics, content <br> manahement,IOT, mobile apps</td>
+                <td>Legacy applications or applications <br> that require multi-row <br> transactions</td>
+            </tr>
+            <tr class="headline">
+                <td class="mongoDB">Data Structure</td>
+                <td class="mySql">Data Structure</td>
+            </tr>
+            <tr>
+                <td>No schema definition required</td>
+                <td>Structured data with clear schema</td>
+            </tr>
+            <tr class="headline">
+                <td class="mongoDB">Risk</td>
+                <td class="mySql">Risk</td>
+            </tr>
+            <tr>
+                <td>Less risk of attack due t design</td>
+                <td>Risk of SQL injection attacks</td>
+            </tr>
+            <tr class="headline">
+                <td class="mongoDB">Analysis</td>
+                <td class="mySql">Analysis</td>
+            </tr>
+            <tr>
+                <td>MongoDB works great for <br> unstructured data and lends you <br> opportunity for growth.</td>
+                <td>MySQL is a perfect when your data <br> is structured and you are in need of a <br> traditional relationship database.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
