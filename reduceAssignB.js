@@ -37,7 +37,7 @@ console.log(`Employees from IT or HR department`);
 
      console.log(`-----------------------------------STEP-3-----------------------------------`);
 
-     console.log(`Employees from IT or HR department`);
+     console.log(`Employees whose emp_id is greater than 50`);
      const IdEmployee = arrayEmployees.filter((element) => {
        return(element.emp_id > 50) ;
      }); 
